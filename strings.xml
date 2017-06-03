@@ -1,0 +1,286 @@
+<resources>
+    <string name="app_name">我的大学</string>
+
+    <string name="title_home">我的大学</string>
+    <string name="title_course">课 程</string>
+    <string name="title_exam">形 考</string>
+    <string name="title_news">动 态</string>
+    <string name="title_login">登 录</string>
+    <string name="title_notification">通知消息</string>
+    <string name="title_notifi_edu">教务通知</string>
+    <string name="title_notifi_course">课程通知</string>
+    <string name="title_notifi_daoxiu">导修通知</string>
+    <string name="title_notifi_question">答疑消息</string>
+    <string name="title_notifi_send_email">发件箱</string>
+    <string name="title_notifi_get_email">收件箱</string>
+    <string name="title_course_question">答疑</string>
+    <string name="title_my_time_table">我的课表</string>
+
+    <string name="str_schedule_monday">周一</string>
+    <string name="str_schedule_tuesday">周二</string>
+    <string name="str_schedule_wednesday">周三</string>
+    <string name="str_schedule_thursday">周四</string>
+    <string name="str_schedule_friday">周五</string>
+    <string name="str_schedule_saturday">周六</string>
+    <string name="str_schedule_sunday">周日</string>
+
+    <string name="str_question_type_1">单选题</string>
+    <string name="str_question_type_2">多选题</string>
+    <string name="str_question_type_3">判断题</string>
+    <string name="str_question_type_4">填空题</string>
+    <string name="str_question_type_5">简答题</string>
+    <string name="str_question_type_6">阅读理解</string>
+    <string name="str_question_type_error"></string>
+
+    <string name="str_my_schedule">我的课表</string>
+    <string name="str_latest_study_course">最近学习</string>
+    <string name="str_exam_notification">形考提醒</string>
+    <string name="str_percent">&#160;%</string>
+
+    <string name="dialog_waiting">请稍后...</string>
+
+    <string name="str_edu_info">教务信息</string>
+    <string name="str_exam_time_schedule">考试安排</string>
+    <string name="str_subject_rule">专业规则</string>
+
+    <string name="str_learn_manager">行政管理</string>
+    <string name="str_learn_statistics">累计学习时长</string>
+    <string name="str_exam_number">完成形考</string>
+    <string name="str_discuss_number">参与讨论</string>
+    <string name="str_learn_time">学习时长</string>
+    <string name="str_homework_number">完成作业</string>
+    <string name="str_learn_progress">学习进度</string>
+
+    <string name="str_learned">已学完&#160;</string>
+    <string name="str_learning">学习中&#160;</string>
+    <string name="str_learn_un">未学习&#160;</string>
+
+    <string name="str_learn_score_units">学&#160;分</string>
+    <string name="str_course_number_units">&#160;门</string>
+    <string name="str_learn_minutes">分&#160;钟</string>
+    <string name="str_course_exam_units">次</string>
+
+    <string name="str_text_without_content">--</string>
+    <string name="str_text_without_content_2">--/--</string>
+    <string name="str_btn_send_msg">发送</string>
+    <string name="str_resource_answer">答疑</string>
+    <string name="str_course_learn_forum">论坛</string>
+    <string name="str_edt_hint">请输入...</string>
+    <string name="str_edt_hint_input_name">请输入学号</string>
+    <string name="str_edt_hint_pwd">密码</string>
+    <string name="str_btn_login">登录</string>
+    <string name="str_error_msg_network_status_error">网络异常,请检查您的网络设置</string>
+    <string name="str_error_msg_service_error">服务器开小差了，请重试</string>
+    <string name="str_error_msg_data_error">数据异常，请重试</string>
+    <string name="str_btn_question">提问</string>
+
+    <string name="str_notification_type_name_1">教务通知</string>
+    <string name="str_notification_type_name_2">课程通知</string>
+    <string name="str_notification_type_name_3">导修通知</string>
+    <!--<string name="str_notification_type_name_4">答疑消息</string>-->
+    <string name="str_notification_type_name_4">任务提醒</string>
+    <string name="str_notification_type_name_5">发件箱</string>
+    <string name="str_notification_type_name_6">收件箱</string>
+    <string name="str_course_info">课程信息</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- 新命名规范-->
+
+    <string name="forum">论坛</string>
+    <string name="forum_course_discuss_area">专业课程讨论区</string>
+    <string name="forum_detail">帖子详情</string>
+    <string name="forum_reply">回复</string>
+    <string name="forum_post_title">标题</string>
+    <string name="forum_post_content">内容</string>
+    <string name="forum_post">发帖</string>
+    <string name="forum_post_post">发布</string>
+
+    <string name="error_permission_denied">权限未开启，请在设置中开启相关权限</string>
+    <string name="error_open_file" formatted="false">本机没有能打开%S文件的应用,文件保存位置：%s</string>
+    <string name="error_et_cannot_be_empty">不能为空</string>
+
+    <!-- download -->
+    <string name="download_success" formatted="false">%s - 下载成功</string>
+    <string name="download_now" formatted="false">%s - 正在下载,请稍后</string>
+    <string name="download_error">下载失败，发生错误</string>
+
+    <string name="please_input">请输入......</string>
+    <string name="coming_soon">即将开通，敬请期待</string>
+    <string name="please_input_content">请输入内容</string>
+    <string name="ask_question">提问</string>
+    <string name="post_fail">上传失败</string>
+    <string name="error_post_fail">发送失败</string>
+    <string name="review_resource">复习资料</string>
+    <string name="answer_question">答疑</string>
+    <string name="end_period_review">期末复习</string>
+
+    <!-- mine my class -->
+    <string name="my_class">我的班级</string>
+    <string name="my_class_study_center" formatted="false">所属学习中心：%s</string>
+    <string name="my_class_stu_cnt" formatted="false">%d人</string>
+    <string name="my_class_head_teacher">班主任:</string>
+    <string name="my_class_contact">联系电话:</string>
+    <string name="my_class_email">联系邮箱</string>
+    <string name="my_class_member">同班同学</string>
+    <string name="my_score">我的成绩</string>
+    <string name="my_score_score">分</string>
+    <string name="my_score_xk">形考成绩</string>
+    <string name="my_score_exam">考试成绩</string>
+    <string name="my_score_multi">综合成绩</string>
+    <string name="my_score_credit">已获学分</string>
+    <string name="majot_plan">专业规划</string>
+
+
+    <!--settings-->
+    <string name="settings">设置</string>
+    <string name="settings_modify_pwd">修改密码</string>
+    <string name="settings_clear_cache">清除缓存</string>
+    <string name="settings_about">关于</string>
+    <string name="settings_update">版本更新</string>
+    <string name="search_fail">搜索失败</string>
+    <string name="exit">退出</string>
+    <string name="settings_modify_gprs_see_video_enable">允许移动网络下观看视频</string>
+    <string name="check_update_fail">检查更新失败</string>
+    <string name="no_update">暂无更新</string>
+    <string name="settings_update_enable">更新</string>
+
+    <!--mine info-->
+    <string name="mine_info">个人信息</string>
+    <string name="mine_info_avatar">头像</string>
+    <string name="mine_info_number">学号</string>
+    <string name="mine_info_name">姓名</string>
+    <string name="mine_info_id_number">身份证</string>
+    <string name="mine_info_id_phone_number">联系电话</string>
+    <string name="mine_info_connect_email">联系邮箱</string>
+    <string name="mine_info_school">学院</string>
+    <string name="mine_info_profession">专业</string>
+    <string name="mine_info_level">职级</string>
+    <string name="mine_info_job">岗位</string>
+    <string name="mine_info_gender">性别</string>
+    <string name="mine_info_birthday">出生日期</string>
+    <string name="mine_info_country">国籍</string>
+    <string name="mine_info_nation">民族</string>
+    <string name="mine_info_division">分部</string>
+    <string name="mine_info_learn_center">学习中心</string>
+    <string name="mine_info_admission_time">入学年度</string>
+    <string name="mine_info_major">专业</string>
+    <string name="mine_info_educational_level">专业层次</string>
+
+    <!--my schedule-->
+    <string name="my_schedule" formatted="false">我的课表 %d月</string>
+    <string name="teach_arrangement_title" formatted="false">教学安排 %d月</string>
+    <string name="teach_arrangement_class" formatted="false">班级：%s</string>
+    <string name="teach_arrangement_department" formatted="false">部门：%s</string>
+    <string name="teach_arrangement_place" formatted="false">地点：%s</string>
+    <string name="scoring_no_score">该试题未打分</string>
+    <string name="scoring_score_is_limit">评分过高</string>
+
+
+    <!--dialog-->
+    <string name="dialog_positive">确定</string>
+    <string name="dialog_negative">取消</string>
+    <string name="prompt">提示</string>
+
+    <!-- mine major plan -->
+    <string name="major_plan_module_name">模块名</string>
+    <string name="major_plan_min_credit">最低学分</string>
+    <string name="major_plan_min_center_credit">最低中央考试学分</string>
+    <string name="major_plan_student_type" formatted="false">学生类型：%s</string>
+    <string name="major_plan_level" formatted="false">专业层次：%s</string>
+    <string name="major_plan_graduation_credit" formatted="false">毕业学分：%d</string>
+    <string name="major_plan_exam_credit" formatted="false">中央考试学分：%d</string>
+    <string name="major_plan_course_code" formatted="false">课程代码：%s</string>
+    <string name="major_plan_exam_unit" formatted="false">考试单位：%s</string>
+    <string name="major_plan_course_credit" formatted="false">%d 学分</string>
+    <string name="major_plan_course_term" formatted="false">开设学期：%d</string>
+
+    <!-- my forum post -->
+    <string name="my_forum_post">我的发帖</string>
+
+    <!--post msg-->
+    <string name="post_content">内容</string>
+    <string name="post_to">接收人</string>
+    <string name="send_remind">发提醒</string>
+    <string name="send_msg">发消息</string>
+    <string name="student_send">发送</string>
+    <string name="post_title">标题</string>
+    <string name="my_class_cannot_post">数据未加载，不能发消息</string>
+    <string name="send_msg_success">发送成功</string>
+
+    <!--message-->
+    <string name="msg_course_noti">课程安排</string>
+    <!--<string name="msg_answer_noti">答疑提醒</string>-->
+    <string name="msg_answer_noti">任务提醒</string>
+    <string name="msg_receiver_noti">收件箱</string>
+    <string name="msg_review_noti">评阅提醒</string>
+    <string name="msg_send_box">发件箱</string>
+
+
+    <!--教务通知  在学生端上是消息-->
+    <string name="teach_noti">教务通知</string>
+    <string name="teach_noti_from" formatted="false">来自：%s</string>
+    <string name="teach_noti_all_read">全部已读</string>
+    <string name="end_time_can_not_exam">答题已截至</string>
+    <string name="nomore">没有更多了</string>
+    <string name="exam_detail_time_limit">时间到，结束答题</string>
+    <string name="record_file_upload_fail">录音上传失败</string>
+    <string name="record_error">录音播放失败</string>
+    <string name="question_post_long_press_record">长按录音</string>
+    <string name="question_answer">回答</string>
+    <string name="question_right_answer">答案</string>
+    <string name="question_analysis">解析</string>
+    <string name="bottom_bar_press_to_speak">按住 说话</string>
+
+    <!--my download-->
+    <string name="my_download">我的下载</string>
+    <string name="my_download_cache_cnt" formatted="false">缓存 %d</string>
+    <string name="my_download_cache_cnt2" formatted="false">缓存 %d/%d </string>
+    <string name="download_complete">完成</string>
+    <string name="download_pause">暂停</string>
+    <string name="download_waiting">等待</string>
+
+    <string name="download_fail">下载失败</string>
+
+
+    <!--exam fj-->
+    <string name="exam_post">发布</string>
+    <string name="exam_detail_paper_get_fail">试卷获取失败</string>
+    <string name="exam_fj_name">作业名称</string>
+    <string name="exam_fj_command">作业要求</string>
+    <string name="exam_fj_extra_download">附件下载</string>
+    <string name="exam_fj_guide">作业指导</string>
+    <string name="exam_fj_answer">答题框</string>
+    <string name="exam_fj_extra_upload">附件上传</string>
+    <string name="exam_fj">附加作业</string>
+    <string name="exam_fj_upload_fail">提交失败</string>
+    <string name="file_upload_fail">文件上传失败</string>
+    <string name="fj_exam_gain_fail">获取失败</string>
+    <string name="fj_exam_pick_file_fail">获取文件失败</string>
+    <string name="fj_exam_no_content_to_upload">没有可提交内容</string>
+
+    <!--my donwload-->
+    <string name="download_fail2">失败</string>
+    <string name="download_start">开始</string>
+    <string name="download_resume">继续</string>
+    <string name="download_delete">删除</string>
+    <string name="cancel">取消</string>
+    <string name="download_detail_select_all">全选</string>
+    <string name="download_detail_delete">删除</string>
+    <string name="download_delete_file_complete">文件删除完成</string>
+    <string name="download_delete_file_error">文件删除出错</string>
+    <string name="exam_fj_command_extra">作业要求附件</string>
+    <string name="download_complete2">下载完成</string>
+    <string name="video_play_fail">播放失败</string>
+    <string name="download_complete_open">打开</string>
+    <string name="record_release_cancel">松开取消</string>
+    <string name="record_recording">正在录音</string>
+    <string name="teach_noti_set_all_readed_fail">设置失败</string>
+
+    <!--file select dialog-->
+    <string name="upload_file_selected_take_photo">拍照</string>
+    <string name="upload_file_selected_select_fail">选择文件</string>
+    <string name="upload_file_selected_select_photo">选择图片</string>
+
+</resources>
