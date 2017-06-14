@@ -310,3 +310,27 @@ aView.snp.makeConstraints({ (make) in
 https://github.com/SnapKit/Masonry
 
 
+# AutoLayout 动画
+
+```
+        self.mView.updateConstraints()
+        UIView.animate(withDuration: 0.5, animations: {
+            /// 设置旋转
+            self.mView.transform = CGAffineTransform.init(rotationAngle: CGFloat(0))
+
+            self.mView.transform = CGAffineTransform.init(rotationAngle: CGFloat(-Double.pi/2))
+
+            self.mView.snp.makeConstraints({ (make) in
+                make.center.equalTo(self.mView.superview!)
+                make.width.equalTo(self.mView.superview!.snp.width)
+                make.height.equalTo(self.mView.superview!.snp.height)
+            })
+                
+            self.mView.layoutIfNeeded()
+            
+        }) { (finished) in
+
+        }
+```
+
+
