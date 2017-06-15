@@ -230,5 +230,46 @@ final class RequestAlertPlugin: PluginType {
 方法二：[https://github.com/artsy/eidolon/blob/master/Kiosk/App/Networking/NetworkLogger.swift](https://github.com/artsy/eidolon/blob/master/Kiosk/App/Networking/NetworkLogger.swift)
 
 
+## post json 数据 同时设置 url 参数
+
+[https://github.com/Moya/Moya/issues/1119](https://github.com/Moya/Moya/issues/1119)
+
+```
+public var parameters: [String: Any]? {
+    var params:[String: Any] = [:]
+    params["query"] = ["access_token":getAccessToken()]
+    params["body"] = ["user_name":"Pete"]
+
+    return params
+}
+
+public var parameterEncoding: ParameterEncoding {
+    return CompositeEncoding()
+}
+
+
+struct CompositeEncoding: ParameterEncoding {
+        
+    public func encode(_ urlRequest: URLRequestConvertible, with parameters: Parameters?) throws -> URLRequest {
+        guard let parameters = parameters else {
+            return try urlRequest.asURLRequest()
+        }
+            
+        let queryParameters = (parameters["query"] as? Parameters)
+        let queryRequest = try URLEncoding(destination: .queryString).encode(urlRequest, with: queryParameters)
+            
+        if let body = parameters["body"] {
+            let bodyParameters = (body as! Parameters)
+            var bodyRequest = try JSONEncoding().encode(urlRequest, with: bodyParameters)
+                
+            bodyRequest.url = queryRequest.url
+            return bodyRequest
+        } else {
+            return queryRequest
+        }
+    }
+}
+```
+
 
 # Objective-C AFNetworking
